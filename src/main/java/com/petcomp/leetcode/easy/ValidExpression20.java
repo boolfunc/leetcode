@@ -1,4 +1,4 @@
-package com.murmur.leetcode;
+package com.petcomp.leetcode.easy;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -45,6 +45,7 @@ public class ValidExpression20 {
         }
 
         public T pop(){
+            @SuppressWarnings({"unchecked"})
             T item = (T)items[top--];
             size--;
             return item;

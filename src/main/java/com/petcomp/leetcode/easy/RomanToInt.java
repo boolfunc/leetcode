@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class RomanToInt {
 
-    static Map<Character, Integer> values = new HashMap<>(){
+    static Map<Character, Integer> values = new HashMap<Character, Integer>(){
         {
             put('I', 1);
             put('V', 5);
