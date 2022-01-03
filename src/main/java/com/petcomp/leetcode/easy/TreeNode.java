@@ -1,6 +1,6 @@
 package com.petcomp.leetcode.easy;
 
-public class TreeNode {
+public class TreeNode extends Object{
     public int val;
     public TreeNode left;
     public TreeNode right;
@@ -10,5 +10,10 @@ public class TreeNode {
         this.val = val;
         this.left = left;
         this.right = right;
+    }
+
+    @Override
+    public String toString(){
+        return Integer.toString(val);
     }
 }
