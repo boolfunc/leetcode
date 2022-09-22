@@ -1,4 +1,4 @@
-package com.murmur.leetcode;
+package com.petcomp.leetcode.easy;
 
 public class MaxSubArray53 {
 
